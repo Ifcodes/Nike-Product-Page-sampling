@@ -21,13 +21,12 @@ img{
   margin: auto;
   display: grid;
   grid-template-columns: 36% 64%;
-  box-shadow: 5px 5px 20px ;
   border-radius: 10px;
 }
 .img-cont{
   background: linear-gradient(#19f3c4,#71e0ce); 
   border-radius: 15px 0 0 15px;
-  box-shadow: -7px 12 100px rgba(109, 204, 188, 0.7);
+  box-shadow: -7px 12px 30px 10px rgba(113, 224, 206, 0.4);
 }
 .icn-img{
   padding: 4rem 10rem 2rem 9rem;
@@ -60,11 +59,11 @@ img{
 .prd-content-info{
   background-color: white;
   border-radius: 0 15px 15px 0;
-  box-shadow: 5px -12 100px rgba(235, 193, 186, 0.7);
+  box-shadow: 5px 5px 30px 10px rgba(77, 77, 77, 0.2);
   font-family: sans-serif;
   font-weight: bolder;
   padding-left: 2rem;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .title-str{
   padding-right: 3rem;
@@ -109,4 +108,111 @@ img{
   font-size: .8rem;
   margin-top: .85rem;
   word-spacing: 3px;
+}
+.moreInfo{
+  display: flex;
+  margin-left: 0.2rem;
+ 
+}
+.color-sec{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1px;
+  
+}
+.mintGreen-cont{
+  border-radius: 50px;
+  border: solid  #0fcf7f;
+  background-color: white;
+  width: 1.1rem;
+  height: 1.1rem;
+  
+}
+.mintGreen{
+  background-color: #0fcf7f;
+  border-radius: 50px;
+  width: .85rem;
+  height: .85rem;
+  margin: auto;
+  margin-top: 1.65px;
+}
+.color-yellow{
+  background-color: yellow;
+  border-radius: 50px;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: auto;
+  margin-top: 3px;
+  margin-left: .7rem;
+}
+.color-purple{
+  background-color: purple;
+  border-radius: 50px;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: auto;
+  margin-top: 3px;
+  margin-left: .7rem;
+}
+.color-black{
+  background-color: black;
+  border-radius: 50px;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: auto;
+  margin-top: 3px;
+  margin-left: .7rem;
+}
+.color-white{
+  background-color: silver;
+  border-radius: 50px;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: auto;
+  margin-top: 3px;
+  margin-left: .7rem;
+}
+.size{
+  margin-left: 2rem;
+  border-right: solid silver;
+  padding-right: 2rem;
+  height: auto;
+  padding-top: none;
+  margin-top: 1px;
+}
+.qty{
+  margin-left: 2rem;
+}
+.color-cont{
+  border-right: solid silver;
+  padding-right: 2rem;
+}
+select{
+  border: none;
+  font-size: 1rem;
+  background-color: white;
+  font-weight: bold;
+  color: silver;
+}
+.btn-share{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+.addtocart{
+  margin-top: 2rem;
+  width: 12rem;
+  height: 3.7rem;
+  border-radius: 10px;
+  background: linear-gradient(#FC7368, #fc1b3d);
+  box-shadow: -1px 7px 20px 2px rgba(241, 54, 21, .5);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+.share-btn{
+  width: 2rem;
+  height: 2rem;
+  padding-top: 2.5rem;
 }
